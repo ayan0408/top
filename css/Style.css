@@ -10,17 +10,17 @@ html, body{
 
 :root{
 
-    /*      Theme colors        */
+
     --text-gray: #3f4954;
     --text-light : #5d5b5b;
     --bg-color: #0f0f0f;
     --white: #ffffff;
     --midnight: #104f55;
 
-    /* gradient color   */
+
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 
-    /*      theme font-family   */
+
     --Abel: 'Abel', cursive;
     --Anton: 'Anton', cursive;
     --Josefin : 'Josefin', cursive;
@@ -29,7 +29,6 @@ html, body{
 }
 
 
-/* ---------------- Global Classes ---------------*/
 
 a{
     color: var(--text-gray);
@@ -85,9 +84,8 @@ p{
     color: var(--text-light);
 }
 
-/* ------x------- Global Classes -------x-------*/
 
-/* --------------- navbar ----------------- */
+
 
 .nav{
     background: white;
@@ -167,12 +165,15 @@ p{
     color: #a1c4cf;
 }
 
-/* -------x------- navbar ---------x------- */
 
 
-/* ----------------- Main Content----------- */
 
-/* --------------- Site title ---------------- */
+
+
+
+
+
+
 main .site-title{
     background: url('../assets/Background-image.png');
     background-size: cover;
@@ -202,9 +203,9 @@ main .site-title .btn:hover{
     color: var(--white);
 }
 
-/* --------x------ Site title --------x------- */
 
-/* --------------- Blog Carousel ------------ */
+
+
 
 main .blog{
     background: url('../assets/Abract01.png');
@@ -266,9 +267,8 @@ section .container .owl-nav{
 }
 
 
-/* -------x------- Blog Carousel -----x------ */
 
-/* ---------------- Site Content ----------------*/
+
 
 main .site-content{
     display: grid;
@@ -340,10 +340,9 @@ nav{
     color: var(--white);
 }
 
-/* -------x-------- Site Content --------x-------*/
 
 
-/* --------------- Sidebar ----------------------- */
+
 
 .site-content > .sidebar .category-list{
     font-family: var(--Livvic);   
@@ -418,12 +417,9 @@ nav{
 }
 
 
-/* -------x------- Sidebar -----------x----------- */
-
-/* ---------x------- Main Content -----x----- */
 
 
-/* ----------------- Footer --------------------- */
+
 
 footer.footer{
     height: 100%;
@@ -503,9 +499,10 @@ footer.footer .move-up span:hover{
     cursor: pointer;
 }
 
-/* ---------x------- Footer ----------x---------- */
 
-/*              Viewport less then or equal to 1130px            */
+
+
+
 
 @media only screen and (max-width: 1130px){
     .site-content .post-content > .post-image .post-info{
@@ -524,10 +521,10 @@ footer.footer .move-up span:hover{
 
 }
 
-/*      x       Viewport less then or equal to 1130px    x     */
 
 
-/*              Viewport less then or equal to 750px            */
+
+
 
 @media only screen and (max-width: 750px){
     .nav .nav-menu, .nav .nav-items{
@@ -549,10 +546,10 @@ footer.footer .move-up span:hover{
 }
 
 
-/*        x      Viewport less then or equal to 750px       x     */
 
 
-/*              Viewport less then or equal to 520px            */
+
+
 
 @media only screen and (max-width: 520px){
     main .blog{
@@ -578,7 +575,6 @@ footer.footer .move-up span:hover{
 
 }
 
-/*        x      Viewport less then or equal to 520px       x     */
 
 
 .post-content .post-image img{
