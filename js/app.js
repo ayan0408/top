@@ -197,7 +197,7 @@ const questions =
     new Question("6. Do you have your family as a role model?", 
     [
         new Answer("Yes, my family", 0),
-        new Answer("I don't know any friends, but I do know some bloggers", 0),
+        new Answer("I don't know any friends, but I know some bloggers", 0),
         new Answer("Only in my head", 1),
         new Answer("No, there is no such thing", 1),
         new Answer("Among the relatives there are", 0)
@@ -278,7 +278,7 @@ const questions =
     [
         new Answer("Can I become a good parent?", 5),
         new Answer("Can I provide him with everything he needs", 4),
-        new Answer("I'm not sure I'm ready", 3),
+        new Answer("I'm not sure that I'm ready", 3),
         new Answer("Isn't it too early for me now?", 2),
         new Answer("Can I give him enough time and love?", 1)
     ]),
@@ -383,7 +383,6 @@ function Click(index)
 {
     let correct = quiz.Click(index);
     let btns = document.getElementsByClassName("button");
-
     btns[index].className = "button button_correct";
     
     setTimeout(Update, 300);
